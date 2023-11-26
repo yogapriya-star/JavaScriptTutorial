@@ -109,3 +109,7 @@ DOM - (Document Object Model) an interface for web development that represents t
 DOM Manipulation => It refer to the process of programmatically modifying the content, structure, or style of a web page's Document Object Model(DOM) using scripting languages like javascript. Developers can add, remove or modify elements, attributes and text with the DOM create dynamic and interactive web applications. This allow web pages to respond to user interactions, update content dynamically and provide a more engaging user experience.
 
 document.getElementById() =>It is a method in the DOM that allows you to select a single element from the document using its unique Id attribute. IDs should be unique within the document, meaning that there should be only one element with a specfic Id. If multiple elements have the same Id, this method will only select the first one it encounters.
+
+Event => It is an action or occurrence that happens within a web page, such as a user's interaction(clicking a button) or a page loading.
+
+Event Handler => It is a function that responds to an event when it occurs. It listens for specific events and executes code to perform actions based on those events, creating interactive and dynamic web applications.
