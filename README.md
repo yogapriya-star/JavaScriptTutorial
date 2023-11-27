@@ -113,3 +113,18 @@ document.getElementById() =>It is a method in the DOM that allows you to select 
 Event => It is an action or occurrence that happens within a web page, such as a user's interaction(clicking a button) or a page loading.
 
 Event Handler => It is a function that responds to an event when it occurs. It listens for specific events and executes code to perform actions based on those events, creating interactive and dynamic web applications.
+
+**InnerHTML**
+    It is a property in Javascript that allows you to access or modify the HTML content of an element in the DOM. It is primarily used to retrieve or set the HTML content inside an HTML element.
+
+-Different way of selecting an element
+
+    *QuerySelector
+    
+    *QuerySelectorAll
+    
+    *getElementById
+    
+    *getElementsByClassName
+    
+    *getElementsByTagName
