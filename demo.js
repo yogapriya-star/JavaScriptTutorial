@@ -191,3 +191,16 @@ for(i=1; i<=10; i ++){
     var result = i*2;
     console.log(i+ " x 2" +  " = " + result);
 }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Array
+var fruit = ["Apple","orange","grape","banana"];
+console.log(fruit);
+console.log(fruit[0]);
+console.log(fruit[1]);
+console.log(fruit[2]);
+console.log(fruit[3]);
+
+for(count=0; count<=fruit; count=count+1){
+    console.log(fruit[count]);
+}

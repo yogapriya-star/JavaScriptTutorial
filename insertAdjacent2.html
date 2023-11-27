@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>InserAdjacentHTML</title>
+</head>
+<body>
+<div><h1>Praveen</h1><h1>John</h1></div>
+</body>
+<script>
+    //Select div
+    var div =document.querySelector("div");
+    console.log("div",div);
+    var h1=document.createElement("h1")
+    h1.textContent="Bye"
+    div.insertAdjacentElement("afterend",h1);
+</script>
+</html>

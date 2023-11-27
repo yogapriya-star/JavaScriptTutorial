@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>InnerHTML</title>
+</head>
+<body>
+<div id="one">Hello</div>
+<div id="two">Welcome</div>
+<div id="three">Hello World</div>
+</body>
+<script>
+   //Select div
+   var div1 =document.getElementById("one");
+   div1.innerHTML="Bye"
+
+   //Select div
+   var div2 =document.getElementById("two");
+   div2.innerHTML="<h1>See You</h1>"
+
+   //Select div
+   var div3 =document.getElementById("three");
+   div3.textContent="<h1>Awesome!</h1>"
+</script>
+</html>
