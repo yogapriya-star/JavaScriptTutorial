@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>KeyUp!</title>
+</head>
+<body>
+<button onClick="update()">Add</button>
+<div id="result"></div>
+
+</body>
+<script>
+    //Select h1 box id
+    var div =document.getElementById("result");
+    console.log("div",div);
+
+    function update()
+    {
+        //Create a new element
+        var listItem=document.createElement("h1") //<h1></h1>>
+        listItem.textContent="Hello"; //<h1>Hello</h1>>
+        div.append(listItem);
+    }
+</script>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>KeyUp!</title>
+</head>
+<body>
+<input id="inputbox" onkeyup="update()">
+<h1 id="result"></h1>
+
+</body>
+<script>
+    //Select input box id
+    var inputbox =document.getElementById("inputbox");
+    console.log("inputbox",inputbox);
+
+    //Select heading
+    var result =document.getElementById("result");
+    console.log("result",result);
+
+    function update()
+    {
+        result.textContent =inputbox.value;
+    }
+</script>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Change Text</title>
+</head>
+<body>
+<h1 id="result">Name</h1>
+<button onClick="update(event)">John</button>
+<button onClick="update(event)">Praveen</button>
+<button onClick="update(event)">Karthik</button>
+</body>
+<script>
+    //Select h1 using id
+    var h1 =document.getElementById("result");
+    console.log("h1",h1);
+
+    function update(event)
+    {
+        h1.textContent=event.target.textContent;
+    }
+</script>
+</html>

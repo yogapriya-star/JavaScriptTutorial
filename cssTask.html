@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>DOM Manipulation</title>
+    <style>
+        div{
+            background-color: black;
+            width:100px;
+            height: 100px;
+        }
+
+        .widthMax{
+            width: 900px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+</div>
+<button onclick="change()">Change color</button>
+</body>
+<script>
+    //Select box  using id
+    var box =document.getElementById("box");
+
+    function change() {
+        box.style.backgroundColor = "red";
+        box.setAttribute("class","widthMax");
+    }
+</script>
+</html>

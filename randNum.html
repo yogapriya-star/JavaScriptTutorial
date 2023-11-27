@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Guess It!</title>
+</head>
+<body>
+<input id="guessnumber">
+<button onclick="getResult()">Check</button>
+<p id="result">Guess The Number</p>
+<p id="score">Score : 10</p>
+</body>
+<script>
+    //Select input box id
+    var guessnumber =document.getElementById("guessnumber");
+    console.log("guessnumber",guessnumber.value);
+
+    //Select paragraph
+    var result =document.getElementById("result");
+    console.log("result",result);
+
+    var randomNumber = Math.floor(Math.random()*10)+1
+
+    var score =document.getElementById("score");
+    var mark = 10;
+
+    function getResult()
+    {
+        var enteredNumber = guessnumber.value;
+        if(randomNumber == enteredNumber){
+            result.textContent ="Yes it is correct!";
+            alert("You Won....");
+        } else{
+            mark=mark-1;
+            score.textContent ="score:"+mark;
+            result.textContent ="You are wrong";
+        }
+    }
+</script>
+</html>

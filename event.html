@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <input id="num1">
+    <input id="num2">
+    <button onclick="getResult()">Add</button>
+<p id="result">Result</p>
+</body>
+<script>
+    //Select input box1 id
+    var box1 =document.getElementById("num1");
+    console.log("Input Box 1",box1.value);
+
+    //Select input box2 id
+    var box2 =document.getElementById("num2");
+    console.log("Input Box 2",box1.value);
+
+    //Select result
+    var result =document.getElementById("result");
+    console.log("result",result);
+
+    console.log("answer",answer);
+    function getResult()
+    {
+        var box1value = Number(box1.value);
+        var box2value = Number(box2.value);
+        var answer = box1value + box2value;
+        result.textContent =answer
+    }
+</script>
+</html>
