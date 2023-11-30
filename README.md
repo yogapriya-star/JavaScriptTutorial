@@ -94,11 +94,15 @@ It is a block of code designed to perform a particular task
 
 =>Syntax
 
-function functionName () {}
+function functionName () {
 
-To call the function   <function name>();
+}
 
-Parameters = Refer to the variables or placeholders that you define when declaring a function. These parameters serve as inputs to the function and allow you to pass data in to the function when you call it.
+**To call the function**
+
+functionName();
+
+**Parameters** = Refer to the variables or placeholders that you define when declaring a function. These parameters serve as inputs to the function and allow you to pass data in to the function when you call it.
 
 Return Type = The return keyword is used within a function to specify the value that the function should produce as its result or return to the caller when a function is executed and encounters a return statement
               it immediately stop executing and returns the specified value to the calling code.
