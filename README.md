@@ -9,95 +9,94 @@ JavaScript Tutorial
 
 **Keywords**
 
-  -Set of reserved keyword that have predefined meanings and cannot be used as identifiers (variable name, function name) etc.
-      -var
+Set of reserved keyword that have predefined meanings and cannot be used as identifiers (variable name, function name) etc.
+-var
       
-      -let
+-let
       
-      -const
+-const
       
-      -if
+-if
       
-      -switch
+-switch
       
-      -for 
+-for 
       
-      -function
+-function
       
-      -return
+-return
       
-      -try
+-try
 
-  var 
+**var**
   
-    - Global scope or functional sccope
+- Global scope or functional sccope
 
-    - var keyword to declare for a variable
+- var keyword to declare for a variable
     
-    - Accessible outside the block
+- Accessible outside the block
  
- let   
+**let**  
     
-    - Block scope
+- Block scope
 
-    - let keyword to declare a let variable
+- let keyword to declare a let variable
     
-    - Declared before use
+- Declared before use
     
-    - Should not be redeclared
+- Should not be redeclared
 
- const
+**const**
 
-    - Value cannot be changed
+- Value cannot be changed
     
-    - const keyword to declare a constant variable
+- const keyword to declare a constant variable
     
-    - Cannot be reassigned or redeclared
+- Cannot be reassigned or redeclared
 
 **Comments**    
 
-    Single line comments -> // Single line comments
+Single line comments -> // Single line comments
 
-    Multi-line comments - /*
-                              Multi-line comments
-                           */
+Multi-line comments - /*
+                            Multi-line comments
+                      */
 
 **Operators**
 
-    Arithmetic Operator      +, -, *, /, %, ++, --, **
+Arithmetic Operator      +, -, *, /, %, ++, --, **
 
-    Assignment Operator      =, +=, -=, *=, /=, %=, **=
+Assignment Operator      =, +=, -=, *=, /=, %=, **=
 
-    Comparison Operator      ==, !=, ===, !==, >, <, >=, <=
+Comparison Operator      ==, !=, ===, !==, >, <, >=, <=
 
-    Logical Operator         &&, ||, !
+Logical Operator         &&, ||, !
 
-    Bitwise Operator         &, |, ~, ^, <<, >>, >>>
+Bitwise Operator         &, |, ~, ^, <<, >>, >>>
 
-    String Operator          +
+String Operator          +
 
-    Conditional Operator     ? :
+Conditional Operator     ? :
 
-    Type Operator            typeof, insteadof
+Type Operator            typeof, insteadof
 
-    Unary Operator           +, -, !, =, typeof, delete, void 
+Unary Operator           +, -, !, =, typeof, delete, void 
 
 **DataType**
 
-    Primitive Datatype       number, string, boolean, null, undefined
+Primitive Datatype       number, string, boolean, null, undefined
 
-    NonPrimitive Datatype    Object, array
+NonPrimitive Datatype    Object, array
 
 **Function**
 
-    It is a block of code designed to perform a particular task
+It is a block of code designed to perform a particular task
 
-    -Syntax
-          function <function name>() {
+=>Syntax
 
-          }
+function functionName () {}
 
-     To call the function   <function name>();
+To call the function   <function name>();
 
 Parameters = Refer to the variables or placeholders that you define when declaring a function. These parameters serve as inputs to the function and allow you to pass data in to the function when you call it.
 
@@ -119,12 +118,12 @@ Event Handler => It is a function that responds to an event when it occurs. It l
 
 -Different way of selecting an element
 
-    *QuerySelector
+*QuerySelector
     
-    *QuerySelectorAll
+*QuerySelectorAll
     
-    *getElementById
+*getElementById
     
-    *getElementsByClassName
+*getElementsByClassName
     
-    *getElementsByTagName
+*getElementsByTagName
