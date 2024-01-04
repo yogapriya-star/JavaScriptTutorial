@@ -10,6 +10,7 @@ JavaScript Tutorial
 **Keywords**
 
 Set of reserved keyword that have predefined meanings and cannot be used as identifiers (variable name, function name) etc.
+
 -var
       
 -let
